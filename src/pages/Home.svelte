@@ -3,6 +3,7 @@
   import Counter from '../lib/Counter.svelte'
   import Button from '../lib/Button.svelte';
   import NavBar from '../lib/NavBar.svelte';
+  import ButtonAction from '../lib/ButtonAction.svelte';
 
 </script>
 
@@ -16,6 +17,7 @@
 
   <div class="card">
     <Counter />
+    <ButtonAction text="Make request"/>
   </div>
 
   <p>
