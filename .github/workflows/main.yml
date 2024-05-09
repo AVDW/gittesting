@@ -38,4 +38,4 @@ jobs:
         run: npx vercel build --token ${{ secrets.VERCELKEY }}
 
       - name: Deploy App
-        run: npx vercel --prebuilt --token ${{ secrets.VERCELKEY }}
+        run: npx vercel --prebuilt --prod --token ${{ secrets.VERCELKEY }}
